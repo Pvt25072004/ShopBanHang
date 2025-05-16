@@ -1,0 +1,18 @@
+$black-color: #000000;
+$orange-color: #ff8317;
+$primary-color: #17e0ff;
+
+body {
+    background-color: $primary-color;
+}
+h1 {
+    color: $orange-color;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: $orange-color;
+    p {
+        color: $black-color;
+    }
+}
