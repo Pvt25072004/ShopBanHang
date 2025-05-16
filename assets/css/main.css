@@ -1,16 +1,15 @@
+h1 {
+  font-style: italic;
+}
+
 body {
-  background-color: #17e0ff;
+  background-color: #ff8317;
 }
 
 h1 {
-  color: #ff8317;
+  color: #45ff17;
 }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: #ff8317;
-}
-.box p {
-  color: #000000;
+p {
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */

@@ -1,18 +1,18 @@
-$black-color: #000000;
-$orange-color: #ff8317;
-$primary-color: #17e0ff;
+@use "color";
 
+@mixin theme($color: color.$green-color) {
+    color: $color;
+}
+%style-text {
+    font-style: italic;
+}
 body {
-    background-color: $primary-color;
+    background-color: color.$orange-color;
 }
 h1 {
-    color: $orange-color;
+    @include theme;
+    @extend %style-text;
 }
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: $orange-color;
-    p {
-        color: $black-color;
-    }
+p {
+    @include theme($color: color.$white-color);
 }
